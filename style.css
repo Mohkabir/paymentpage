@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+  background-color: #131522;
+  color: #ffffff;
+}
+
+body header .logo {
+  width: 50%;
+  font-size: 1.5em;
+}
+
+body header .logo h2 {
+  color: #7BE1EF;
+}
+
+body header .logo h2 span {
+  color: #4A828F;
+}
+
+body header nav {
+  width: 50%;
+}
+
+body header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav ul li a {
+  margin-left: 1em;
+  color: #ffffff;
+}
+
+body header nav ul li a:hover {
+  color: #4A828F;
+}
+
+body header nav ul li .signup {
+  border: 2px solid #4A828F;
+  padding: 0.3em 1em;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0em 8em;
+}
+
+body main .column1 {
+  width: 65%;
+}
+
+body main .column1 .sub-nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3em 0em;
+}
+
+body main .column1 .sub-nav ul li img {
+  width: 9px;
+  margin: 0em 1em;
+}
+
+body main .column1 .sub-nav ul li a {
+  color: #000000;
+}
+
+body main .column1 .sub-nav ul li a:hover {
+  color: #19B7CD;
+}
+
+body main .column1 .sub-nav p {
+  margin-bottom: 1em;
+}
+
+body main .column1 .sub-nav p img {
+  width: 20px;
+  margin-right: 1em;
+}
+
+body main .column1 .sub-nav p a {
+  color: #19B7CD;
+}
+
+body main .column1 h2 {
+  margin: 1em 0em;
+}
+
+body main .column1 form {
+  border-bottom: 2px solid #F3F3F3;
+  border-left: 2px solid #F3F3F3;
+  border-right: 2px solid #F3F3F3;
+}
+
+body main .column1 form h3 {
+  margin: 1em 1em;
+}
+
+body main .column1 form .btn-payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .column1 form .btn-payment button {
+  padding: 1em 8em;
+  border: none;
+  margin: 1em 0em;
+}
+
+body main .column1 form .btn-payment button:hover {
+  background-color: #19B7CD;
+  color: #ffffff;
+}
+
+body main .column1 form .form-input {
+  padding: 1em 2em;
+}
+
+body main .column1 form .form-input label {
+  display: block;
+}
+
+body main .column1 form .form-input input[type=text] {
+  width: 90%;
+  padding: 0.7em;
+  margin-bottom: 2em;
+  border: 2px solid #F3F3F3;
+}
+
+body main .column1 form .form-input input[type=password] {
+  width: 60%;
+  padding: 0.7em;
+  margin-bottom: 2em;
+  border: 2px solid #F3F3F3;
+  display: block;
+}
+
+body main .column1 form .form-input input[type=month] {
+  width: 70%;
+  padding: 0.7em;
+  margin-bottom: 2em;
+  border: 2px solid #F3F3F3;
+  display: block;
+}
+
+body main .column1 form .form-input input[type=checkbox] {
+  margin-bottom: 2em;
+  border: 2px solid #F3F3F3;
+  margin-right: 0.5em;
+}
+
+body main .column1 form .form-input .visa-logo {
+  background-image: url("./visa logo.jpeg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 70px;
+}
+
+body main .column1 form .safe {
+  margin-bottom: 7em;
+}
+
+body main .column1 form .safe img {
+  width: 20px;
+  background-color: blue;
+  border-radius: 80px;
+}
+
+body main .column1 form .safe span {
+  margin-left: 3em;
+  color: #19B7CD;
+}
+
+body main .column1 form .safe button {
+  padding: 0.4em 2em;
+  margin-left: 0.5em;
+  background-color: #19B7CD;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.7em;
+}
+
+body main .column1 form .safe button img {
+  width: 10px;
+}
+
+body main .column2 {
+  width: 30%;
+  padding: 4em 0em;
+}
+
+body main .column2 h3 {
+  margin-bottom: 0.5em;
+}
+
+body main .column2 div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #F3F3F3;
+}
+
+body main .column2 div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2em 0em;
+}
+
+body main .column2 button {
+  padding: 0.9em 4em;
+  background-color: #19B7CD;
+  color: #ffffff;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+  body header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body header nav {
+    display: none;
+  }
+  body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0em 2em;
+  }
+  body main .column1 {
+    width: 100%;
+  }
+  body main .column1 .sub-nav ul {
+    margin: 3em 0em;
+  }
+  body main .column1 .sub-nav ul li img {
+    margin: 0em 0.5em;
+  }
+  body main .column1 form .btn-payment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main .column1 form .btn-payment button {
+    padding: 1em 1em;
+    border: none;
+  }
+  body main .column1 form .form-input {
+    padding: 0em 0.4em;
+  }
+  body main .column1 form .safe {
+    margin-bottom: 7em;
+  }
+  body main .column1 form .safe img {
+    width: 20px;
+    background-color: blue;
+    border-radius: 80px;
+  }
+  body main .column1 form .safe span {
+    margin-left: 3em;
+    color: #19B7CD;
+  }
+  body main .column1 form .safe button {
+    padding: 0.4em 2em;
+    margin-left: 0.5em;
+    background-color: #19B7CD;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.7em;
+  }
+  body main .column1 form .safe button img {
+    width: 10px;
+  }
+  body main .column2 {
+    width: 100%;
+    padding: 4em 0em;
+  }
+  body main .column2 h3 {
+    margin-bottom: 0.5em;
+  }
+  body main .column2 div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 2px solid #F3F3F3;
+  }
+  body main .column2 div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 2em 0em;
+  }
+  body main .column2 button {
+    padding: 0.9em 4em;
+    background-color: #19B7CD;
+    color: #ffffff;
+    border: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
